@@ -1,0 +1,281 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    color: #000000;
+
+}
+a{
+    text-decoration: none;
+}
+input, textarea, button{
+    border: none;
+    outline: none;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 0.16rem;
+    color: #000000;
+}
+a{
+    text-decoration: none;
+}
+.daohanglan{
+    width: 100%;
+    height: 1.28rem;
+    background-image: url("../img/header.png");
+     background-size:cover;
+     background-repeat: no-repeat;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+}
+.daohanglan .zuokuang{
+    width:2.23rem;
+    height:0.4rem;
+    float: left;
+    margin-left: 0.32rem;
+    margin-top: 0.52rem;
+    font-size: 0.30rem;
+    color: #ffffff;
+    text-align: center;
+    line-height: 0.4rem;
+}
+.daohanglan .youkuang .sousuo{
+     display: block;
+     width: 3.76rem;
+     height: 0.46rem;
+     float: right;
+    background: #ffffff;
+    margin-top: 0.52rem;
+    margin-right: 0.49rem ;
+    border-radius: 0.11rem;
+    font-size: 0.30rem;
+    color: #d8d6d5;
+    text-align: center;
+    position: relative;
+ }
+.sousu{
+    position: absolute;
+    left: 3.5rem;
+    top: 0.6rem;
+}
+.dingwei{
+    color: white;
+}
+.xiabiao{
+    color: white;;
+}
+.shangpingkuang{
+    width: 100%;
+    height: 3.78rem;
+    overflow: hidden;
+    position: relative;
+    top: 0;
+    left: 0;
+    margin-top: 1.28rem;
+
+}
+.xiaokuang{
+    width: 6.9rem;
+    height: 3.24rem;
+    margin: 0.27rem auto;
+}
+.shangpingkuang .xiaokuang .dangekuang{
+    width: 20%;
+    height: 1.62rem;
+    float: left;
+}
+.shangpingkuang .xiaokuang .dangekuang img{
+    margin-left: 0.2rem;
+    width: 0.88rem;
+    height: 0.88rem;
+}
+.dangekuang p{
+    color: #000;
+    font-size: 0.22rem;
+    margin: 0.18rem 0.4rem 0;
+    width: 100%;
+    display: block;
+    height: auto;
+}
+.shangpingkuang .dian{
+    width: 0.23rem;
+    height: 0.23rem;
+    position: absolute;
+    border-radius: 50%;
+    background:lightseagreen;
+    left: 0.2rem;
+    top: 0.2rem;
+    margin: 3.30rem 3.10rem;
+}
+.shangpingkuang .dian1{
+    width: 0.2rem;
+    height: 0.2rem;
+    position: absolute;
+    border: 1px solid silver;
+    border-radius: 50%;
+    left: 0.2rem;
+    top: 0.2rem;
+    margin: 3.30rem 3.80rem;
+}
+.choice{
+    width: 100%;
+    height: 1.27rem;
+
+    float: left;
+    position: relative;
+}
+.choice .top{
+    width: 100%;
+    height: 0.2rem;
+    background-color:lightgray ;
+}
+/*.choice .mid{*/
+    /*display: flex;*/
+    /*width: 100%;*/
+    /*height: 0.25rem;*/
+    /*justify-content: center;*/
+/*}*/
+/*.choice .mid h3{*/
+    /*margin-top:0.35rem ;*/
+/*}*/
+/*.choice .mid img{*/
+    /*justify-content: space-between;*/
+/*}*/
+.choice .mid{
+    width: 100%;
+    height: 1.1rem;
+
+    margin-top: 0.35rem;
+    text-align: center;
+    line-height: 1.1rem;
+}
+.choice .mid .pica{
+    position: absolute;
+    height: 0.03rem;
+    width: 0.81rem;
+    top: 0.9rem;
+    left: 2.27rem;
+    background: black;
+}
+.choice .mid .picb{
+    position: absolute;
+    height: 0.03rem;
+    width: 0.81rem;
+    top: 0.9rem;
+    right: 2.27rem;
+    background: black;
+}
+.goods{
+    width: 100%;
+    height: auto;
+}
+.goods .shop{
+    width: 7.02rem;
+    height: 1.7rem;
+    margin-left: 0.24rem;
+    display: flex;
+    flex-grow:1;
+    border-bottom: 0.01rem solid lightgray ;
+    margin-bottom: 0.4rem;
+}
+.goods .shop .left{
+    width:1.76rem ;
+    height: 1.52rem;
+    background-image:url("../img/0e7ab5d6b107e9faa86e8e009df130478ca773453a067-HeVDvG_fw658.png");
+    background-size:cover;
+}
+.goods .shop .right{
+    height: 1.53rem;
+    width: 4.96rem;
+    margin-left: 0.26rem;
+}
+.goods .shop .right .text1{
+    width:4.96rem;
+    height: 0.4rem;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+.goods .shop .right .text1 .le{
+    width: 1.5rem;
+    height: 0.40rem;
+    font-size: 0.26rem;
+}
+.goods .shop .right .text1 .le a{
+    display: block;
+}
+.goods .shop .right .text1 .ri{
+    width:0.8rem;
+    height: 0.40rem;
+}
+.goods .shop .right .text2{
+    width: 4.0rem;
+    height: 0.4rem;
+
+    display: flex;
+    justify-content: space-between;
+
+}
+.goods .shop .right .text2 .le{
+    width: 50%;
+    height: 100%;
+    background-image: url("../img/xingxing (2).png.");
+    background-position: 0rem;
+    background-repeat:no-repeat;
+
+
+}
+.goods .shop .right .text2 .ri{
+    width: 50%;
+    height: 100%;
+    text-align: left;
+}
+.goods .shop .right .text4{
+    width:4.96rem;
+    height: 0.4rem;
+    display: flex;
+    justify-content: space-between;
+    line-height: 0.4rem;
+}
+.goods .shop .right .text4 .le {
+    width: 60%;
+    height: 100%;
+    background: white;
+}
+.goods .shop .right .text4 .s1{
+    color: orange;
+    font-size: 0.30rem;
+    display:block;
+    margin-left: 0rem;
+    float: left;
+}
+.goods .shop .right .text4 .s2{
+    display:block;
+    line-height: 0.4rem;
+    float: right;
+    margin-right: 0.2rem;
+}
+.daohang{
+    background-image: url("../img/header.png") ;
+    width: 100%;
+    height: 0.9rem;
+    display: flex;
+    position: fixed;
+    left:0;
+    bottom: 0;
+
+}
+.daohang a{
+    display: block;
+    height: 100%;
+    width: 25%;
+    text-align: center;
+    padding-top: 0.15rem;
+}

@@ -1,0 +1,143 @@
+*{
+    margin:0;
+    padding:0;
+    list-style:none;
+}
+a {
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+.header{
+    width: 100%;
+    height: 3.90rem;
+    padding: 0.4rem 0.24rem 0;
+    box-sizing: border-box ;
+    background: #d23a41;
+    background-image: url("../img/a.png");
+    background-size: cover;
+    position: relative;
+    border-bottom-right-radius:0.5rem;
+    border-bottom-left-radius:0.5rem;
+}
+.header .top{
+    width: 100%;
+    height: 0.76rem;
+
+}
+.header a{
+    display: block;
+    width: 0.5rem;
+    height: 0.76rem;
+    text-align: left;
+    line-height: 0.2rem;
+
+}
+.header p{
+    font-size: 0.28rem;
+    color: white;
+}
+.header i{
+    color: white;
+
+}
+.mids{
+    width: 7.02rem;
+    height:auto;
+    position: absolute;
+    top: 3rem;
+    left: 0.24rem;
+
+}
+.mids .part1 {
+    width: 100%;
+    height: 2.42rem;
+    border-radius: 0.5rem;
+    background: floralwhite;
+    box-shadow: 0.1rem 0.1rem 0.1rem #888888;;
+    padding-top: 0.52rem;
+    padding-left: 0.3rem;
+    font-size: 0.28rem;
+    box-sizing: border-box;
+    position: relative;
+}
+.mids .part11{
+    width: 100%;
+    height: 0.4rem;
+    position: absolute;
+    bottom: 0.52rem;
+}
+.mids .s1{
+    display: block;
+    float: left;
+}
+.mids .s2{
+    display: block;
+    float: right;
+    padding-right: 0.36rem;
+}
+.mids .hui{
+    width: 91.5%;
+    height: 0.02rem;
+    background:#e9e5e5;
+    position: absolute;
+    top:1.1rem;
+
+}
+.mids .part2{
+    width: 100%;
+    height: 8rem;
+    border-radius: 0.5rem;
+    background: floralwhite;
+    box-shadow: 0.1rem 0.1rem 0.1rem #888888;;
+    /*padding-top: 0.52rem;*/
+    font-size: 0.28rem;
+    box-sizing: border-box;
+    position: relative;
+    margin-top: 0.2rem;
+    margin-bottom: 0.2rem;
+
+}
+.mids .part2 .one{
+    width: 100%;
+    height: 1.28rem;
+    text-align: center;
+    line-height: 1.28rem;
+    font-size: 0.34rem;
+    border-bottom: 0.02rem solid #e9e5e5;
+}
+.mids .part2 .two{
+    width: 100%;
+    height: 1.26rem;
+    display: flex;
+    border-bottom: 0.02rem solid #e9e5e5;
+
+}
+.mids .part2 .two .left1{
+    width: 0.4rem;
+    height: 100%;
+    margin-top: 0.3rem;
+    margin-left: 0.24rem;
+}
+.mids .part2 .two .left1 img{
+    width: 0.4rem;
+    height: 0.4rem;
+    margin-top: 0.14rem;
+}
+.mids .left2{
+    text-align: center;
+    line-height: 1.26rem;
+    margin-left: 0.1rem;
+    font-size: 0.32rem;
+}
+.mids .right{
+    margin-left: 4.4rem;
+    width: 0.4rem;
+    height: 100%;
+    margin-top: 0.3rem;
+}
+.mids .right img{
+    width: 0.4rem;
+    height: 0.4rem;
+    margin-top: 0.14rem;
+}

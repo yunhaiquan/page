@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 0.16rem;
+    color: #000000;
+}
+a{
+    text-decoration: none;
+}
+input, textarea, button{
+    border: none;
+    outline: none;
+}
+<i class="iconfont sousuo">&#xe6bf;</i>
