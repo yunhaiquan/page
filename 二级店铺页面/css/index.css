@@ -1,0 +1,347 @@
+header{
+    width: 100%;
+    height: 2.43rem;
+    background-image: url("../../img/dianpu.png.");
+    background-size: cover;
+    padding: 0 0.24rem;
+    box-sizing: border-box;
+}
+.top{
+    width: 100%;
+    height: 0.86rem;
+    /*background: #f5dfbf;*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.top .bottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.top i{
+    font-size: 0.4rem;
+    color: white;
+}
+.box{
+    width: 100%;
+    height: 1.57rem;
+    /*background: yellow;*/
+    display: flex;
+}
+.box .pic{
+    width: 2rem;
+    height: 2rem;
+    background-image: url("../../img/timg.png.");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.box .word{
+    flex-grow: 1;
+    /*background: green;*/
+    display: flex;
+    flex-direction:column;
+    padding-left: 0.1rem;
+    box-sizing: border-box;
+    /*padding-bottom: 0.2rem;*/
+}
+.box .word h3{
+    font-size: 0.3rem;
+    padding-bottom: 0.2rem;
+    color: white;
+}
+.box .word span{
+    font-size: 0.2rem;
+    padding-bottom: 0.2rem;
+    color: white;
+}
+.box1{
+    width: 100%;
+    height: 1.1rem;
+    /*background: #f5dfbf;*/
+    border-bottom: 1px solid #c6c6c6;
+    display: flex;
+    justify-content:space-around;
+    align-items:flex-end;
+
+}
+.box1 .wenzi{
+    font-size: 0.3rem;
+    padding-bottom: 0.1rem;
+    box-sizing: border-box;
+    position: relative;
+}
+.box1 .wenzi1:before{
+    content:"";
+    width: 100%;
+    height: 0.07rem;
+    background: #d23a41;
+    position: absolute;
+    bottom: -0.05rem;
+}
+.caipin{
+    width: 100%;
+    height: auto;
+    /*background: green;*/
+    padding-right: 0.24rem;
+    box-sizing: border-box;
+    display: flex;
+}
+.caipin ul{
+    width: 1.93rem;
+    height: auto;
+    font-size: 0.3rem;
+    background: #f7f6f6;
+    text-align: center;
+    line-height: 1.3rem;
+}
+.caipin ul .active{
+    background: #fff;
+    border-bottom: 0;
+}
+.caipin ul li{
+    width:100%;
+    height: 1.3rem;
+    border-bottom: 0.01rem solid #cccccc;
+}
+.caipin .right{
+    flex-grow: 1;
+    /*background: pink;*/
+    display: flex;
+    flex-direction: column;
+}
+.caipin .right .box{
+    width: 4.85rem;
+    height: 1.44rem;
+    /*background-color: #aea9a9;*/
+    padding-top: 0.33rem;
+    padding-left: 0.24rem;
+}
+.caipin .right .box .pic1{
+    width: 1.44rem;
+    height: 100%;
+    background-image: url("../img/fan.png.");
+    background-size: cover;
+}
+.caipin .right .box .rightfood{
+    flex-grow: 1;
+    /*background: blue;*/
+    display: flex;
+    flex-direction: column;
+    padding-left: 0.15rem;
+    box-sizing: border-box;
+    position: relative;
+}
+.caipin .right .box .rightfood a{
+    font-size:0.3rem ;
+    padding-bottom: 0.22rem;
+    box-sizing: border-box;
+
+}
+.caipin .right .box .rightfood span{
+    font-size: 0.2rem;
+    color:rgba(0,0,0,0.5);
+    padding-bottom: 0.22rem;
+    box-sizing: border-box;
+}
+.caipin .right .box .rightfood span:nth-child(3){
+    font-size: 0.2rem;
+    color:red;
+    padding-bottom: 0.22rem;
+    box-sizing: border-box;
+}
+.caipin .right .box .rightfood span:nth-child(4){
+    color: red;
+    font-weight: bold;
+}
+.caipin .right .box .rightfood .btngroup{
+    width: 1.1rem;
+    height: 0.4rem;
+    /*background: yellow;*/
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between ;
+    position: absolute;
+    right: -0.24rem;
+    bottom: 0;
+}
+.caipin .right .box .rightfood .btngroup .jian{
+    width: 0.3rem;
+    height: 0.3rem;
+    background-image: url("../img/jian.png");
+    background-size: cover;
+    /*box-sizing: border-box;*/
+}
+.caipin .right .box .rightfood .btngroup .jia{
+    width: 0.3rem;
+    height: 0.3rem;
+    background-image: url("../img/jia.png");
+    background-size: 90%;
+    background-repeat: no-repeat;
+    /*box-sizing: border-box;*/
+}
+.caipin .right .box .rightfood .btngroup p{
+    flex-grow: 1;
+    font-size: 0.2rem;
+    height: 0.4rem;
+    text-align: center;
+}
+.di{
+    width: 100%;
+    height: 0.33rem;
+    background: #fbf7d8;
+    font-size: 0.2rem;
+    text-align: center;
+    position: fixed;
+    left: 0rem;
+    bottom: 2.68rem;
+}
+.di1{
+    width: 100%;
+    height: 1.8rem;
+    /*background: red;*/
+    display: flex;
+    justify-content: space-around;
+    /*padding: 0 0.24rem;*/
+    box-sizing: border-box;
+    flex-direction: column;
+    position: fixed;
+    left: 0rem;
+    bottom: 0.88rem;
+}
+.di1 .top{
+    width: 100%;
+    height: 0.7rem;
+    background:#cdc6c6 ;
+    /*display: flex;*/
+    /*justify-content: space-around;*/
+}
+.di1 .top .txt{
+    margin-left: 0.24rem;
+    width: 1rem;
+    height: 0.29rem;
+    font-size: 0.25rem;
+    text-align: center;
+}
+.di1 .top .qingkong{
+    margin-right: 0.24rem;
+    width: 1rem;
+    height: 0.29rem;
+    font-size: 0.25rem;
+    text-align: center;
+}
+.di1 .top .qingkong i{
+    font-size: 0.3rem;
+}
+.di1 .bottom{
+    flex-grow: 1;
+    background: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+.di1 .bottom .shop{
+    width: 1.54rem;
+    height: 100%;
+    font-size: 0.25rem;
+    line-height: 1.1rem;
+    margin-left: 0.24rem;
+
+}
+.di1 .bottom .anniu{
+    margin-right: 0.24rem;
+    width:4rem;
+    /*background: #d23a41;*/
+}
+.di1 .bottom .anniu .money{
+    font-size: 0.3rem;
+    color: red;
+    text-align: center;
+    line-height: 1.1rem;
+}
+.di1 .bottom .anniu .btn1 {
+    width: 1.1rem;
+    height: 0.4rem;
+    /*background: yellow;*/
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between ;
+    position: absolute;
+    right: 0.24rem;
+    bottom:0.3rem;
+}
+.di1 .bottom .anniu .btn1 .jian{
+    width: 0.3rem;
+    height: 0.3rem;
+    background-image: url("../img/jian.png");
+    background-size: cover;
+    /*box-sizing: border-box;*/
+}
+.di1 .bottom .anniu .btn1 .jia{
+    width: 0.3rem;
+    height: 0.3rem;
+    background-image: url("../img/jia.png");
+    background-size: 90%;
+    background-repeat: no-repeat;
+    /*box-sizing: border-box;*/
+}
+.di1 .bottom .anniu .btn1 p{
+    flex-grow: 1;
+    font-size: 0.2rem;
+    height: 0.4rem;
+    text-align: center;
+}
+.di2{
+    width: 100%;
+    height: 0.98rem;
+    background: #4c4848;
+    padding: 0 0.24rem;
+    box-sizing: border-box;
+    position: relative;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+
+}
+.di2 .gouwuche{
+    width: 1.22rem;
+    height: 1.22rem ;
+    background-image: url("../img/gouwuche.png");
+    background-size: cover;
+    /*margin-top: 0.1rem;*/
+    position: absolute;
+    bottom: 0.1rem;
+}
+.di2 .txt2{
+    width: 0.92rem;
+    height: 100%;
+    /*background: yellow;*/
+    position: absolute;
+    top:0.1rem;
+    left:1.8rem;
+}
+.di2 .txt2 .txt3{
+    width: 0.4rem;
+    height: 0.4rem;
+    font-size: 0.24rem;
+    color: #ffffff;
+}
+.di2 .txt2 .txt4{
+    width: 1.4rem;
+    height: 0.4rem;
+    font-size: 0.24rem;
+    color: #ffffff;
+    margin-top: 0rem;
+}
+.di2 .jiesuan{
+    width: 2rem;
+    height: 100%;
+    background: #07f190;
+    font-size: 0.32rem;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    line-height: 0.98rem;
+}
+
+

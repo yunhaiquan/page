@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    color: #000;
+}
+.iconfont{
+    font-style: normal;
+    font-family: 'iconfont';
+}
+a{
+    text-decoration: none;
+    color: #000000;
+    margin: 0;
+    padding: 0;
+}
+.header{
+    width: 100%;
+    height: 3.62rem;
+    background: black;
+    padding: 0.4rem 0.24rem 0;
+    box-sizing: border-box;
+    background-image: url("../img/wuhua.png");
+    background-size: cover;
+}
+.htop{
+    width: 100%;
+    height: 0.86rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/*.htop .left{*/
+    /*display: block;*/
+    /*!*width: 50%;*!*/
+    /*!*height:100%;*!*/
+
+/*}*/
+/*.htop .right{*/
+    /*display: block;*/
+/*}*/
+.htop i{
+    color: white;
+    font-size: 0.4rem;
+}
+.content{
+    width: 100%;
+    padding: 0.2rem 0.24rem 0;
+    box-sizing: border-box;
+    height: 2.52rem;
+    position: absolute;
+    /*border-bottom: 0.2rem solid #f4f2f1;*/
+}
+
+.content h2{
+    font-size: medium;
+    padding-bottom: 0.1rem;
+}
+.content p{
+    font-size: 0.24rem;
+    line-height: 0.4rem;
+}
+.content p:nth-child(4){
+    font-size: 0.24rem;
+
+    line-height: 0.35rem;
+}
+.content p:nth-child(3){
+    color: rgba(0,0,0,0.5);
+
+}
+.content p:nth-child(2){
+    font-size: 0.28rem;
+    color: red;
+}
+.content .join{
+    display: block;
+    width: 1.84rem;
+    height: 0.42rem;
+    background-image: url("../img/jiaru.png");
+    background-size: cover;
+    position: relative;
+    right: -4.96rem;
+    top: -1.86rem;
+}
+.content .cut{
+    width: 100%;
+    height: 0.2rem;
+    background:#f4f2f1;
+    margin-top:-0.15rem;
+}
+.mid{
+    width: 7.02rem;
+    height: 0.8rem;
+    line-height: 0.8rem;
+    font-size: 0.32rem;
+    /*background: #07f190;*/
+    margin-top: 3.01rem;
+    margin-left: 0.24rem;
+    text-align: left;
+    border-bottom: 0.1rem solid #f4f2f1;
+}
+.bottom{
+    width: 100%;
+    height: auto;
+    padding-left: 0.24rem;
+    padding-top: 0.44rem;
+    padding-right: 0.24rem;
+    box-sizing: border-box;
+    margin-bottom: 0.2rem;
+}
+.bottom .whole{
+    width: 100%;
+    height: 0.96rem;
+    display: flex;
+    /*justify-content: space-between;*/
+}
+.bottom .left{
+    width: 0.96rem;
+    height: 0.96rem;
+    /*background: black;*/
+    background-image: url("../img/tiaa.png");
+    background-size: cover;
+}
+.mids{
+    width: 2.54rem;
+    height: 100%;
+    /*background: #d8d6d5;*/
+    flex-grow: 1;
+    display: flex;
+    justify-content: space-between;
+}
+.mids .zuo{
+    width:30%;
+    height: 100%;
+    /*background: #d23a41;*/
+    font-size: 0.24rem;
+}
+.mids .you{
+    width: 45%;
+    height: 100%;
+    /*background: yellow;*/
+    font-size: 0.24rem;
+}
+.mids .iconstar{
+    color: yellow;
+}
+.mids .iconlocation{
+    color: blue;
+}
+.mids .iconh{
+    color: #d23a41;
+}
