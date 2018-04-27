@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>hanshu</title>
+</head>
+<body>
+<script>
+    // var tan = function() {
+    //     document.write('<table align="center" border="1" cellspacing="0">')
+    // for(var i=1;i<10;i++){
+    //     document.write('<tr>')
+    //     for(var j=1;j<10;j++){
+    //         if (j==3) {
+    //             continue;
+    //         }
+    //
+    //         document.write('<td>222</td>')
+    //     }
+    //     document.write('</tr>')
+    // }
+    // document.write('</table>')
+    // }
+    // tan();
+    // var arr=[2,85,66,77,23]
+    //  function sortup(arr){
+    //      for (var i=0;i<arr.length;i++){
+    //          for (var j=i+1;j<arr.length;j++){
+    //              if(arr[i]>arr[j]){
+    //                 var temp=arr[i];
+    //                   arr[i] =  arr[j];
+    //                  arr[j]=temp;
+    //
+    //              }
+    //          }
+    //      }
+    //      console.log(arr)
+    //  }
+    // sortup(arr);
+    // var score=[[60,60,80],[80,70,90],[80,90,100]]
+    // maxarr2(score)
+    // function maxarr2(arr) {
+    //     var max=arr[0][0]
+    //     for (var i=0;i<arr.length;i++){
+    //         for (var j=0;j<arr[i].length;j++){
+    //             max=max<arr[i][j]? arr[i][j]:max;
+    //
+    //         }
+    //     }
+    // console.log(max)
+    // }
+//     var arr =[1,2,,3,4,,5,,6]
+//     function delnull(arr) {
+//         var newarr=[]
+//         for (i=0;i<arr.length;i++){
+//             if (arr[i] !=undefined){
+//                 newarr.push(arr[i]);
+//             }
+//         }
+//         console.log(newarr);
+//     }
+// delnull(arr);
+//     var arr =[1,2,,3,4,,5,,6]
+//     push(arr,'a','b','c','d',)
+//     function push(arr){
+//         for (var i=1;i<arguments.length;i++){
+//             arr[arr.length]=arguments[i];
+//         }
+//         console.log(arr);
+//     }
+//     push(arr);
+
+    // var  arr=[1,2,3]
+    // function unshift(arr){
+    //     unshift
+    //
+    // }
+    var arr=[2,5,9,1]
+    sort(arr,'>');
+    function sort(arr1,type='>'){
+        if (type == undefined) {
+            type='>';
+        }
+        if (type==">"){
+            sortup(arr1);
+        }else if (type=='<'){
+            sortdown(arr1);
+        } else {
+            console.log("参数不合理")
+        }
+        console.log(type);
+
+    }
+    function sortup(arr) {
+        for (var i = 0; i < arr.length; i++) {
+            for (var j = i + 1; j < arr.length; j++) {
+                if (arr[i] > arr[j]) {
+                    var temp = arr[i];
+                    arr[i] = arr[j];
+                    arr[j] = temp;
+                }
+            }
+        }
+    }
+        console.log(arr)
+
+        function sortdown(arr) {
+            for (var i = 0; i < arr.length; i++) {
+                for (var j = i + 1; j < arr.length; j++) {
+                    if (arr[i] < arr[j]) {
+                        var temp = arr[i];
+                        arr[i] = arr[j];
+                        arr[j] = temp;
+
+                    }
+                }
+            }
+            console.log(arr)
+
+    // var arr =[1,2,3];
+    // //var  arr1=delNull(arr);
+    // function delNull(arr) {
+        // if (!Array.isArray(arr)){
+        //     return 'arr不是一个数组';
+        // }
+        // /var newarr=[];
+        // for (var i=0;i<arr.length;i++){
+        //     if (arr[i]!= undefined){
+        //      newarr.push(arr[i])
+    // }
+    //     }
+    //     console.log(newarr);
+    //     return newarr;
+    // }
+    //     add(1,2)
+    // function add(a,b){
+    //     console.log(a + b);
+    //     return a+b
+    }
+
+</script>
+
+</body>
+</html>
